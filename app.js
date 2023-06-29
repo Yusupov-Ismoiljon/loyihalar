@@ -10,6 +10,7 @@ const elGithub = document.querySelector('#github');
 const elTelegram = document.querySelector('#telegram');
 const elKun = document.querySelector('#kun');
 const elTun = document.querySelector('#tun');
+const elLoyiha = document.querySelector('#loyiha');
 
 elTun.addEventListener('click', ()=>{
     elBody.classList.toggle('bg-[#221d1d]');
@@ -18,6 +19,7 @@ elTun.addEventListener('click', ()=>{
     elDasturchi.classList.toggle('text-yellow-200');
     elListItem.classList.toggle('border-yellow-200');
     elListItem1.classList.toggle('border-yellow-200');
+    elLoyiha.classList.toggle('text-yellow-200');
     elGithubIcon.classList.toggle('text-white');
     elTelegramIcon.classList.toggle('text-white');
     elGithub.classList.toggle('text-white');
@@ -32,6 +34,7 @@ elKun.addEventListener('click', ()=>{
     elDasturchi.classList.toggle('text-yellow-200');
     elListItem.classList.toggle('border-yellow-200');
     elListItem1.classList.toggle('border-yellow-200');
+    elLoyiha.classList.toggle('text-yellow-200');
     elGithubIcon.classList.toggle('text-white');
     elTelegramIcon.classList.toggle('text-white');
     elGithub.classList.toggle('text-white');
